@@ -1,4 +1,4 @@
-
+//suresh change
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.SourceDataLine;
@@ -89,7 +89,7 @@ sourceDL = AudioSystem.getSourceDataLine(audioF); // good
 sourceDL.open(audioF);
 sourceDL.start();
 
-sourceDL.write(buff,0,nSamples); 
+sourceDL.write(buff,0,nSamples);
 sourceDL.drain();
 sourceDL.stop();
 sourceDL.close();
